@@ -1,23 +1,16 @@
 
 # 🚗 End-to-End Vehicle Detection, Tracking, Counting, and Speed Estimation 
 
-A comprehensive computer vision system for vehicle analysis with full MLOps integration. Combines state-of-the-art detection (YOLOv8), tracking (ByteTrack), and speed estimation in a production-ready pipeline.
+An End-to-End computer vision system for vehicle analysis with MLOps integration. Combines state-of-the-art detection (YOLOv8), tracking (ByteTrack), and speed estimation in a production-ready pipeline.
 
 ![Vehicle Tracking Demo](assets/processed_video_output.gif)
 
-## 🖥️ Interface Previews
-
-### Video Processing Interface
-![Video Processing Interface](assets/Streamlit-app-for-video-processing-for-vehicle-tracking.png)
-
-### Live Camera Interface
-![Live Camera Interface](assets/Streamlit-app-for-live-camera-processing-for-vehicle-tracking.png)
 
 ## 📌 Features
 
 ### 🖥️ Core Capabilities
 - 🎯 **Vehicle Detection**: YOLOv8-based detection with 95%+ accuracy
-- 📍 **Tracking & Counting**: ByteTrack implementation with <50ms latency
+- 📍 **Tracking & Counting**: ByteTrack integration with <50ms latency
 - 📊 **Speed Estimation**: Perspective transformation with ±5% error margin
 - 🌐 **Real-time Processing**: 30 FPS on RTX 3060 GPU
 - 🎮 **Custom ROI Selection**: Interactive region-of-interest definition
@@ -59,7 +52,15 @@ streamlit run live_camera.py
 docker build -t vehicle-tracking .
 docker run -p 8501:8501 vehicle-tracking
 ```
-Access at: http://localhost:8501
+
+## 🖥️ Interface Previews
+
+### Video Processing Interface
+![Video Processing Interface](assets/Streamlit-app-for-video-processing-for-vehicle-tracking.png)
+
+### Live Camera Interface
+![Live Camera Interface](assets/Streamlit-app-for-live-camera-processing-for-vehicle-tracking.png)
+
 
 ## ☁️ AWS Deployment Guide
 

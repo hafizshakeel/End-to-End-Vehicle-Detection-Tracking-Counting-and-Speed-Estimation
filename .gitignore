@@ -173,6 +173,8 @@ cython_debug/
 
 
 # Folder, files, images, videos
+weights/*
+logs/*
 data/*
 venv*/
 *.pt

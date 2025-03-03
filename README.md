@@ -3,7 +3,15 @@
 
 A comprehensive computer vision system for vehicle analysis with full MLOps integration. Combines state-of-the-art detection (YOLOv8), tracking (ByteTrack), and speed estimation in a production-ready pipeline.
 
-![Vehicle Tracking Demo](data/processed_video_output.gif)
+![Vehicle Tracking Demo](assets/processed_video_output.gif)
+
+## 🖥️ Interface Previews
+
+### Video Processing Interface
+![Video Processing Interface](assets/Streamlit-app-for-video-processing-for-vehicle-tracking.png)
+
+### Live Camera Interface
+![Live Camera Interface](assets/Streamlit-app-for-live-camera-processing-for-vehicle-tracking.png)
 
 ## 📌 Features
 

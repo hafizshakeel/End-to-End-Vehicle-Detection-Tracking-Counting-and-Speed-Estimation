@@ -131,6 +131,17 @@ newgrp docker
 
 Distributed under the MIT License. See `LICENSE` for details.
 
+
+
+**📈 Future Improvements Roadmap**
+- 🚀 GPU-accelerated inference
+- 📦 Model serving with TorchServe
+- 🌐 Multi-camera support
+- 🚨 Speed limit alerts
+- 🔍 Advanced occlusion handling
+
+  
+
 ## 🙏 Acknowledgments
 
 - [YOLOv8](https://ultralytics.com/yolov8) by Ultralytics
@@ -139,4 +150,6 @@ Distributed under the MIT License. See `LICENSE` for details.
 - [Supervision library](https://github.com/roboflow/supervision) for CV utilities
 - AWS for cloud infrastructure
 
+
+Thank you for visiting my repository! Feel free to share feedback at hafizshakeel1997@gmail.com
 

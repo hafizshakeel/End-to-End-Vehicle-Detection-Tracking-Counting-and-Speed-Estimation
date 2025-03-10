@@ -150,6 +150,5 @@ Distributed under the MIT License. See `LICENSE` for details.
 - [Supervision library](https://github.com/roboflow/supervision) for CV utilities
 - AWS for cloud infrastructure
 
-
-Thank you for visiting my repository! Feel free to share feedback at hafizshakeel1997@gmail.com
+📩 **Need professional support?** [Contact me](mailto:hafizshakeel1997@gmail.com) for assistance.  
 
